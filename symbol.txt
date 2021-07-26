@@ -1,0 +1,160 @@
+  = note: ld.lld: error: undefined symbol: _$LT$hyper..common..watch..Sender$u20$as$u20$core..ops..drop..Drop$GT$::drop::hacdd4668a0536c32
+          >>> referenced by mod.rs:192 (toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/ptr/mod.rs:192)
+          >>>               bevy_lib-39bbbd8a3fe41615.1q8zu34stbxlcsji.rcgu.o:(core::ptr::drop_in_place$LT$hyper..common..watch..Sender$GT$::hb2844bbe963b24c7) in archive bevy_dynamic/target/debug/deps/libbevy_lib-39bbbd8a3fe41615.rlib
+          >>> referenced by mod.rs:192 (toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/ptr/mod.rs:192)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.7.rcgu.o:(core::ptr::drop_in_place$LT$hyper..common..watch..Sender$GT$::h9c4c928ff381e098) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          
+          ld.lld: error: undefined symbol: hyper::error::Error::new_canceled::h70c9299ac0f421b1
+          >>> referenced by dispatch.rs:193 (hyper-0.14.11/src/client/dispatch.rs:193)
+          >>>               bevy_lib-39bbbd8a3fe41615.1q8zu34stbxlcsji.rcgu.o:(_$LT$hyper..client..dispatch..Envelope$LT$T$C$U$GT$$u20$as$u20$core..ops..drop..Drop$GT$::drop::hf971cb054da11ace) in archive bevy_dynamic/target/debug/deps/libbevy_lib-39bbbd8a3fe41615.rlib
+          >>> referenced by dispatch.rs:193 (hyper-0.14.11/src/client/dispatch.rs:193)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(_$LT$hyper..client..dispatch..Envelope$LT$T$C$U$GT$$u20$as$u20$core..ops..drop..Drop$GT$::drop::h7836a8f0cec679ee) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by client.rs:444 (hyper-0.14.11/src/client/client.rs:444)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.0.rcgu.o:(hyper::client::client::Client$LT$C$C$B$GT$::connect_to::_$u7b$$u7b$closure$u7d$$u7d$::ha3967961e71762a8) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by client.rs:466 (hyper-0.14.11/src/client/client.rs:466)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.0.rcgu.o:(hyper::client::client::Client$LT$C$C$B$GT$::connect_to::_$u7b$$u7b$closure$u7d$$u7d$::_$u7b$$u7b$closure$u7d$$u7d$::h42fe99c4ac3d4cfc) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by dispatch.rs:621 (hyper-0.14.11/src/proto/h1/dispatch.rs:621)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.11.rcgu.o:(_$LT$hyper..proto..h1..dispatch..Client$LT$B$GT$$u20$as$u20$hyper..proto..h1..dispatch..Dispatch$GT$::recv_msg::ha2a8f50668765bc0) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by conn.rs:322 (hyper-0.14.11/src/client/conn.rs:322)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.4.rcgu.o:(hyper::client::conn::SendRequest$LT$B$GT$::send_request_retryable::h1ae414e4afcaf6fb) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by conn.rs:390 (hyper-0.14.11/src/client/conn.rs:390)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.4.rcgu.o:(hyper::client::conn::Http2SendRequest$LT$B$GT$::send_request_retryable::h295fa8ab4a92186a) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by pool.rs:596 (hyper-0.14.11/src/client/pool.rs:596)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.8.rcgu.o:(hyper::client::pool::Checkout$LT$T$GT$::poll_waiter::hcc9edc52b4047166) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by pool.rs:587 (hyper-0.14.11/src/client/pool.rs:587)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.8.rcgu.o:(hyper::client::pool::Checkout$LT$T$GT$::poll_waiter::hcc9edc52b4047166) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by pool.rs:665 (hyper-0.14.11/src/client/pool.rs:665)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.8.rcgu.o:(_$LT$hyper..client..pool..Checkout$LT$T$GT$$u20$as$u20$core..future..future..Future$GT$::poll::h56511ea49f1a05d3) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          
+          ld.lld: error: undefined symbol: _$LT$hyper..proto..h1..role..Client$u20$as$u20$hyper..proto..h1..Http1Transaction$GT$::is_client::ha29d2306b89f0289
+          >>> referenced by mod.rs:49 (hyper-0.14.11/src/proto/h1/mod.rs:49)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h1::Http1Transaction::should_error_on_parse_eof::h5a658cd664da868b) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by mod.rs:45 (hyper-0.14.11/src/proto/h1/mod.rs:45)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h1::Http1Transaction::is_server::h4eabf7e568bd5ae8) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by conn.rs:344 (hyper-0.14.11/src/proto/h1/conn.rs:344)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.5.rcgu.o:(hyper::proto::h1::conn::Conn$LT$I$C$B$C$T$GT$::require_empty_read::h645811e2d4852d6b) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          
+          ld.lld: error: undefined symbol: hyper::proto::h1::role::parse_headers::CALLSITE::ha4e236931fea807e
+          >>> referenced by role.rs:73 (hyper-0.14.11/src/proto/h1/role.rs:73)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h1::role::parse_headers::h577aeec46500445d) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by role.rs:73 (hyper-0.14.11/src/proto/h1/role.rs:73)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h1::role::parse_headers::h577aeec46500445d) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by role.rs:0 (hyper-0.14.11/src/proto/h1/role.rs:0)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h1::role::parse_headers::h577aeec46500445d) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by lib.rs:1049 (tracing-0.1.26/src/lib.rs:1049)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h1::role::parse_headers::h577aeec46500445d) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by role.rs:73 (hyper-0.14.11/src/proto/h1/role.rs:73)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h1::role::parse_headers::h577aeec46500445d) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          
+          ld.lld: error: undefined symbol: _$LT$hyper..proto..h1..role..Client$u20$as$u20$hyper..proto..h1..Http1Transaction$GT$::parse::he9be604ffc44ac80
+          >>> referenced by role.rs:75 (hyper-0.14.11/src/proto/h1/role.rs:75)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h1::role::parse_headers::h577aeec46500445d) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          
+          ld.lld: error: undefined symbol: hyper::proto::h1::role::encode_headers::CALLSITE::hfb837885a49a73e2
+          >>> referenced by role.rs:85 (hyper-0.14.11/src/proto/h1/role.rs:85)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h1::role::encode_headers::h59f849b1a5044ea9) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by role.rs:85 (hyper-0.14.11/src/proto/h1/role.rs:85)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h1::role::encode_headers::h59f849b1a5044ea9) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by role.rs:0 (hyper-0.14.11/src/proto/h1/role.rs:0)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h1::role::encode_headers::h59f849b1a5044ea9) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by lib.rs:1049 (tracing-0.1.26/src/lib.rs:1049)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h1::role::encode_headers::h59f849b1a5044ea9) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by role.rs:85 (hyper-0.14.11/src/proto/h1/role.rs:85)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h1::role::encode_headers::h59f849b1a5044ea9) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          
+          ld.lld: error: undefined symbol: _$LT$hyper..proto..h1..role..Client$u20$as$u20$hyper..proto..h1..Http1Transaction$GT$::encode::h249c9dab1b2b5f56
+          >>> referenced by role.rs:87 (hyper-0.14.11/src/proto/h1/role.rs:87)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h1::role::encode_headers::h59f849b1a5044ea9) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          
+          ld.lld: error: undefined symbol: hyper::proto::h2::client::conn_task::_$u7b$$u7b$closure$u7d$$u7d$::CALLSITE::h27fb21a151082e7c
+          >>> referenced by client.rs:183 (hyper-0.14.11/src/proto/h2/client.rs:183)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h2::client::conn_task::_$u7b$$u7b$closure$u7d$$u7d$::h87b310468c83dac2) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by client.rs:183 (hyper-0.14.11/src/proto/h2/client.rs:183)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h2::client::conn_task::_$u7b$$u7b$closure$u7d$$u7d$::h87b310468c83dac2) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by client.rs:0 (hyper-0.14.11/src/proto/h2/client.rs:0)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h2::client::conn_task::_$u7b$$u7b$closure$u7d$$u7d$::h87b310468c83dac2) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by lib.rs:1049 (tracing-0.1.26/src/lib.rs:1049)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h2::client::conn_task::_$u7b$$u7b$closure$u7d$$u7d$::h87b310468c83dac2) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          
+          ld.lld: error: undefined symbol: hyper::proto::h2::client::new_builder::h3f7597e672c50dec
+          >>> referenced by client.rs:112 (hyper-0.14.11/src/proto/h2/client.rs:112)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h2::client::handshake::_$u7b$$u7b$closure$u7d$$u7d$::hfe3db655653d39c8) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          
+          ld.lld: error: undefined symbol: hyper::proto::h2::client::new_ping_config::h916f092c9ed4d8f0
+          >>> referenced by client.rs:130 (hyper-0.14.11/src/proto/h2/client.rs:130)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h2::client::handshake::_$u7b$$u7b$closure$u7d$$u7d$::hfe3db655653d39c8) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          
+          ld.lld: error: undefined symbol: hyper::proto::h2::ping::Config::is_enabled::he0b939c199a7ee7a
+          >>> referenced by client.rs:132 (hyper-0.14.11/src/proto/h2/client.rs:132)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h2::client::handshake::_$u7b$$u7b$closure$u7d$$u7d$::hfe3db655653d39c8) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          
+          ld.lld: error: undefined symbol: hyper::proto::h2::ping::disabled::h1584fec693afd60f
+          >>> referenced by client.rs:154 (hyper-0.14.11/src/proto/h2/client.rs:154)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h2::client::handshake::_$u7b$$u7b$closure$u7d$$u7d$::hfe3db655653d39c8) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          
+          ld.lld: error: undefined symbol: hyper::proto::h2::ping::channel::h8c81cfbf7cf8fb76
+          >>> referenced by client.rs:134 (hyper-0.14.11/src/proto/h2/client.rs:134)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h2::client::handshake::_$u7b$$u7b$closure$u7d$$u7d$::hfe3db655653d39c8) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          
+          ld.lld: error: undefined symbol: hyper::proto::h2::client::handshake::_$u7b$$u7b$closure$u7d$$u7d$::_$u7b$$u7b$closure$u7d$$u7d$::CALLSITE::h27f8ab3e14de24a4
+          >>> referenced by client.rs:156 (hyper-0.14.11/src/proto/h2/client.rs:156)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h2::client::handshake::_$u7b$$u7b$closure$u7d$$u7d$::_$u7b$$u7b$closure$u7d$$u7d$::h71bbb431ccf2be69) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by client.rs:156 (hyper-0.14.11/src/proto/h2/client.rs:156)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h2::client::handshake::_$u7b$$u7b$closure$u7d$$u7d$::_$u7b$$u7b$closure$u7d$$u7d$::h71bbb431ccf2be69) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by client.rs:0 (hyper-0.14.11/src/proto/h2/client.rs:0)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h2::client::handshake::_$u7b$$u7b$closure$u7d$$u7d$::_$u7b$$u7b$closure$u7d$$u7d$::h71bbb431ccf2be69) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by lib.rs:1049 (tracing-0.1.26/src/lib.rs:1049)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h2::client::handshake::_$u7b$$u7b$closure$u7d$$u7d$::_$u7b$$u7b$closure$u7d$$u7d$::h71bbb431ccf2be69) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          
+          ld.lld: error: undefined symbol: hyper::proto::h2::ping::Ponger::poll::hb4a7c40230aaa5bf
+          >>> referenced by client.rs:137 (hyper-0.14.11/src/proto/h2/client.rs:137)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h2::client::handshake::_$u7b$$u7b$closure$u7d$$u7d$::_$u7b$$u7b$closure$u7d$$u7d$::hb1454508e447df2d) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          
+          ld.lld: error: undefined symbol: hyper::proto::h2::client::handshake::_$u7b$$u7b$closure$u7d$$u7d$::_$u7b$$u7b$closure$u7d$$u7d$::CALLSITE::hd53c51438130df52
+          >>> referenced by client.rs:144 (hyper-0.14.11/src/proto/h2/client.rs:144)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h2::client::handshake::_$u7b$$u7b$closure$u7d$$u7d$::_$u7b$$u7b$closure$u7d$$u7d$::hb1454508e447df2d) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by client.rs:144 (hyper-0.14.11/src/proto/h2/client.rs:144)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h2::client::handshake::_$u7b$$u7b$closure$u7d$$u7d$::_$u7b$$u7b$closure$u7d$$u7d$::hb1454508e447df2d) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by client.rs:0 (hyper-0.14.11/src/proto/h2/client.rs:0)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h2::client::handshake::_$u7b$$u7b$closure$u7d$$u7d$::_$u7b$$u7b$closure$u7d$$u7d$::hb1454508e447df2d) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by lib.rs:1049 (tracing-0.1.26/src/lib.rs:1049)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::proto::h2::client::handshake::_$u7b$$u7b$closure$u7d$$u7d$::_$u7b$$u7b$closure$u7d$$u7d$::hb1454508e447df2d) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          
+          ld.lld: error: undefined symbol: hyper::error::Error::new_closed::hd2a77751eee2daad
+          >>> referenced by dispatch.rs:59 (hyper-0.14.11/src/client/dispatch.rs:59)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::client::dispatch::Sender$LT$T$C$U$GT$::poll_ready::_$u7b$$u7b$closure$u7d$$u7d$::hd6e29960cf7ad735) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          
+          ld.lld: error: undefined symbol: hyper::client::dispatch::Callback$LT$T$C$U$GT$::send_when::_$u7b$$u7b$closure$u7d$$u7d$::_$u7b$$u7b$closure$u7d$$u7d$::CALLSITE::h26a4ca73a9b66c6d
+          >>> referenced by dispatch.rs:251 (hyper-0.14.11/src/client/dispatch.rs:251)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::client::dispatch::Callback$LT$T$C$U$GT$::send_when::_$u7b$$u7b$closure$u7d$$u7d$::_$u7b$$u7b$closure$u7d$$u7d$::ha283c5d9aca57d4b) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by dispatch.rs:251 (hyper-0.14.11/src/client/dispatch.rs:251)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::client::dispatch::Callback$LT$T$C$U$GT$::send_when::_$u7b$$u7b$closure$u7d$$u7d$::_$u7b$$u7b$closure$u7d$$u7d$::ha283c5d9aca57d4b) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by dispatch.rs:0 (hyper-0.14.11/src/client/dispatch.rs:0)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::client::dispatch::Callback$LT$T$C$U$GT$::send_when::_$u7b$$u7b$closure$u7d$$u7d$::_$u7b$$u7b$closure$u7d$$u7d$::ha283c5d9aca57d4b) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by lib.rs:1049 (tracing-0.1.26/src/lib.rs:1049)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(hyper::client::dispatch::Callback$LT$T$C$U$GT$::send_when::_$u7b$$u7b$closure$u7d$$u7d$::_$u7b$$u7b$closure$u7d$$u7d$::ha283c5d9aca57d4b) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          
+          ld.lld: error: undefined symbol: hyper::proto::h2::ping::Recorder::ensure_not_timed_out::hcff4c3fb265d9aeb
+          >>> referenced by client.rs:215 (hyper-0.14.11/src/proto/h2/client.rs:215)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(_$LT$hyper..proto..h2..client..ClientTask$LT$B$GT$$u20$as$u20$core..future..future..Future$GT$::poll::h118ce1da8ffe0d05) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by client.rs:344 (hyper-0.14.11/src/proto/h2/client.rs:344)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(_$LT$hyper..proto..h2..client..ClientTask$LT$B$GT$$u20$as$u20$core..future..future..Future$GT$::poll::_$u7b$$u7b$closure$u7d$$u7d$::h0ba1ec766827ade8) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          
+          ld.lld: error: undefined symbol: hyper::error::Error::new_h2::hea2fd7d04a7a4656
+          >>> referenced by client.rs:220 (hyper-0.14.11/src/proto/h2/client.rs:220)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(_$LT$hyper..proto..h2..client..ClientTask$LT$B$GT$$u20$as$u20$core..future..future..Future$GT$::poll::h118ce1da8ffe0d05) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by client.rs:251 (hyper-0.14.11/src/proto/h2/client.rs:251)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(_$LT$hyper..proto..h2..client..ClientTask$LT$B$GT$$u20$as$u20$core..future..future..Future$GT$::poll::h118ce1da8ffe0d05) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by client.rs:262 (hyper-0.14.11/src/proto/h2/client.rs:262)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(_$LT$hyper..proto..h2..client..ClientTask$LT$B$GT$$u20$as$u20$core..future..future..Future$GT$::poll::h118ce1da8ffe0d05) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by client.rs:315 (hyper-0.14.11/src/proto/h2/client.rs:315)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(_$LT$hyper..proto..h2..client..ClientTask$LT$B$GT$$u20$as$u20$core..future..future..Future$GT$::poll::_$u7b$$u7b$closure$u7d$$u7d$::h0ba1ec766827ade8) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by client.rs:347 (hyper-0.14.11/src/proto/h2/client.rs:347)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.1.rcgu.o:(_$LT$hyper..proto..h2..client..ClientTask$LT$B$GT$$u20$as$u20$core..future..future..Future$GT$::poll::_$u7b$$u7b$closure$u7d$$u7d$::h0ba1ec766827ade8) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          >>> referenced by function.rs:227 (toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/ops/function.rs:227)
+          >>>               reqwest-971a939569179db9.reqwest.9r6qasdt-cgu.7.rcgu.o:(core::ops::function::FnOnce::call_once::h7271a26fbd40b6ff) in archive bevy_dynamic/target/debug/deps/libreqwest-971a939569179db9.rlib
+          
+          ld.lld: error: too many errors emitted, stopping now (use -error-limit=0 to see all errors)
+          collect2: error: ld returned 1 exit status
+          
+

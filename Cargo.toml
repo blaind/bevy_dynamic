@@ -14,8 +14,10 @@ bevy = { git = "https://github.com/bevyengine/bevy", branch = "main", version = 
   "png",
   "hdr",
   "x11",
-  "dynamic",
 ] }
 
 bevy_lib = { path = "./crates/bevy_lib" }
 
+[features]
+default = []
+dynamic = ["bevy/dynamic"]
